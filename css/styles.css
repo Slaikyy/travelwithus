@@ -1,0 +1,143 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    color: #212529;
+}
+.banner-image {
+    background: url('../img/banner-img.jpg') no-repeat center top;
+    background-size: cover;
+  }
+/*navigace*/
+
+.nav-item{
+    font-size: 20px;
+    font-weight: bold;
+   
+}
+.navbar .nav-link{
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+/*sekce Home*/
+#home {
+   
+    min-height:100vh;
+    background-size: cover;
+    background-position:relative;
+    background-attachment: fixed;
+    display: flex;
+    align-items:center;
+    font-weight: bold;
+}
+.content{
+    margin-bottom: 70px;
+}
+.text-white{
+    margin:auto;
+    font-size: 45px;
+    font-weight:bolder;
+}
+p.text-home{
+    text-align: justify;
+    color: #fff;
+    margin:25px;
+
+}
+/*sekce About us*/
+#aboutus{
+  
+    min-height:50vh;
+    background-size: cover;  
+}
+
+h1.aboutus{
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 70px;
+}
+.us-text{
+    text-align: justify;
+
+}
+p.us-text{
+    margin: 20px;
+}
+.img-responsive{
+    display:block;
+    border-radius: 15px;
+}
+/* Sekce galerie*/
+
+h1.pictures{ 
+    text-align: center;
+    margin-top: 100px;
+   
+
+}
+.gallery{
+	padding: 80px 0px;
+}
+img{
+	max-width: 100%;
+}
+.gallery img{
+	background: #fff;
+	padding: 15px;
+	width: 100%;
+	box-shadow: 0px 0px 15px rgba(0,0,0,0.3);
+	cursor: pointer;
+}
+#gallery-popup .modal-img{
+	width: 100%;
+}
+
+/* Sekce kontakt*/
+
+
+h2.section-contact{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 30px;
+   
+}
+.contact {
+    background: #ccc;
+}
+.contact .info {
+    padding: 10px;
+    background: white;
+    width: 100%;
+    box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+    text-align: center;
+}
+
+     
+.contact .info h4 {
+    padding: 0 0 0 30px;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 5px;
+   
+}
+.contact .info p {
+    padding: 0 0 10px 60px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #ab9d95;
+}
+.contact .info .email p {
+    padding-top: 5px;
+}
+/* Footer*/
+footer{
+    margin-top: 70px;
+    background: #ccc;
+}
+
+.adresanakonci{
+    margin-top: 20px;
+}
+a{
+    text-decoration: none;
+    color:#ab9d95;
+}
